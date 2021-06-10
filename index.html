@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mohamed Ibrahim" />
+    <meta name="description" content="My personal portfolio" />
+    <title>Personal Portfolio</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="icons/briefcase.svg" rel="shortcut icon" type="x-icon/image" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="nav-logo">
+        <a href="#"><img src="https://github.com/ibrahimaroosi/images/blob/main/pngwing.com.png?raw=true" /></a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a><a href="#projects">Projects</a
+        ><a href="#about">About</a><a href="mailto:ibrahimcool@hotmail.com">Contact</a>
+      </div>
+      <div class="bars" id="bars" onclick="openMenu()"><i class="fa fa-bars"></i></div>
+      <div class="times"  id="times" onclick="closeMenu()"><i class="fa fa-times"></i></div>
+    </nav>
+    <section id="welcome-section">
+      <div class="content">
+        <h1 id="main-heading">Mohamed Ibrahim</h1>
+        <p id="role">An aspiring Web Developer</p>
+      </div>
+      <div class="profile-pic">
+        <img src="https://avatars.githubusercontent.com/u/61180254?s=400&u=191548e25d94f8680a89ed06e432d3f6fb10abdc&v=4" alt="Picture of Ibrahim"/>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <p>Mi A3 clone website</p>
+      <div class="project-tile">
+        <!-- <video class="video" loop autoplay muted src="videos/mi_website_demo.mp4"></video> -->
+        <!-- <iframe class="video" src="https://youtu.be/G0JBK1wumhY?loop=1&autoplay=1&mute=1&controls=0" frameborder="0"></iframe> -->
+        <!-- <iframe class="video" autoplay src="https://www.youtube.com/embed/G0JBK1wumhY?rel=0?controls=0&loop=1" title="YouTube video player" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe> -->
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/G0JBK1wumhY?playlist=G0JBK1wumhY&autoplay=1&controls=1&loop=1&mute=1"
+          title="YouTube video player"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a href="https://ibrahimaroosi.github.io/landing-page2/" target="_blank"
+        >Demo link</a
+      >
+    </section>
+    <section id="about">
+      <h2>GitHub Profile</h2>
+      <img  src="https://github.com/ibrahimaroosi/images/blob/main/Kazam_screenshot_00000.png?raw=true" alt="GitHub profile page">
+      <p>GitHub profile link:<a href="https://github.com/ibrahimaroosi" id="profile-link" target="_blank">https://github.com/ibrahimaroosi</a></p>
+    </section>
+    <section  id="contact" class="social">
+      <a href="https://www.facebook.com/ibrahimaroosi/"
+        target="_blank"><i class="fa fa-facebook-square" tabindex="0"></i
+      > Facebook</a>
+      <a href="https://twitter.com/Ibrahim81225"
+      target="_blank"><i class="fa fa-twitter-square" tabindex="0"></i
+      > Twitter</a>
+      <a href="https://www.instagram.com/ibrahim_in_insta/"
+      target="_blank"><i class="fa fa-instagram" tabindex="0"></i
+      > Instagram</a>
+    </section>
+    <script src="https://use.fontawesome.com/7ce2efcf1a.js"></script>
+    <script  src="scripts/script.js"></script>
+  </body>
+</html>
