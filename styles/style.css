@@ -149,6 +149,7 @@ body {
   }
   .social {
     transform: scale(0.8);
+    justify-content: space-between;
   }
   #about img {
     width: 100%;
@@ -207,7 +208,7 @@ h2 {
   min-height: 15vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .social > * {
   margin: 1em;
